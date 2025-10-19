@@ -1,0 +1,88 @@
+{
+    "name": "Maria Porcina",
+    "profilePictureUrl": "images/pictures/avatar.png",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Front-End Developer"
+        },
+        
+        "pt": {
+            "credits": "Designed por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "UX Designer"
+        },
+
+        "es": {
+            "credits": "Hecho por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Designer de UX"
+        },
+
+        "fr": {
+            "credits": "Conçu par <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Designer UX"
+        },
+
+        "zh": {
+            "name": "罗伊谢帕德",
+            "credits": "设计：<strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "用户体验设计师"
+        }
+    },
+
+    "contactOptions": [
+        {
+            "id": "address",
+            "faIcon": "fa-regular fa-map",
+            "href": null,
+            "locales": {
+                "en": {
+                    "value": null,
+                    "valueShort": "Curitiba – BR"
+                },
+                "es": {
+                    "valueShort": "California – EE.UU."
+                },
+                "fr": {
+                    "valueShort": "Californie – États-Unis"
+                },
+                "zh": {
+                    "valueShort": "美国加州"
+                }
+            }
+        },
+
+        {
+            "id": "email",
+            "value": "maria.porcina.mp@gmail.com",
+            "valueShort": "maria.porcina.mp@gmail.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:maria.porcina.mp@gmail.com"
+        },
+
+
+        {
+            "id": "github",
+            "value": "@mariaporcina",
+            "valueShort": "@mariaporcina",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/mariaporcina"
+        },
+
+        {
+            "id": "linkedin",
+            "value": "@mariaporcina",
+            "valueShort": "@mariaporcina",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://linkedin.com/in/mariaporcina"
+        },
+
+        {
+            "id": "phone",
+            "value": "+55 (42) 9 9145-6292",
+            "valueShort": "(42) 9 9145-6292",
+            "faIcon": "fa-brands fa-whatsapp",
+            "href": "https://wa.me/5542991456292?text=Hi%2C%20Maria!%20Nice%20portfolio%2C%20let's%20chat."
+        }
+    ]
+}

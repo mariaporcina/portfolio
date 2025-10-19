@@ -1,0 +1,61 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2018, "month": 1},
+                    "dateEnd": {"year": 2025, "month": 7},
+                    "img": "images/places/utfpr.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+
+                    "locales": {
+                        "en": {
+                            "title": "Technologist in Internet Systems",
+                            "description": "Sistemas para internet",
+                            "province": "",
+                            "country": "Brazil",
+                            "institution": "Federal University of Technology of Paraná",
+                            "tags": []
+                        },
+
+                        "pt": {
+                            "title": "Sistemas para Internet",
+                            "description": "Sistemas para internet",
+                            "province": "",
+                            "country": "Brasil",
+                            "institution": "Universidade Tecnológica Federal do Paraná",
+                            "tags": []
+                        },
+
+                        "fr": {
+                            "title": "Programme Pré-Universitaire en Informatique",
+                            "description": "A achevé un programme préparatoire couvrant les bases de l'informatique, notamment la programmation, les algorithmes et les structures de données. Acquis une expérience pratique en résolution de problèmes et en pensée logique.",
+                            "province": "Toronto",
+                            "country": "Canada",
+                            "institution": "Udacity",
+                            "tags": []
+                        },
+
+                        "zh": {
+                            "title": "大学预科计算机科学课程",
+                            "description": "完成了一项涵盖计算机科学基础知识的预科课程，如编程、算法和数据结构。获得了解决问题和逻辑思维的实践经验。",
+                            "province": "多伦多",
+                            "country": "加拿大",
+                            "institution": "Udacity",
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
