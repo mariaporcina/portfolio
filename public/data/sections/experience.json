@@ -11,29 +11,28 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2015, "month": 1},
-                    "dateEnd": {"year": 2017, "month": 12},
-                    "img": "images/places/logo-ux-studio.png",
+                    "dateStart": {"year": 2018, "month": 1},
+                    "dateEnd": {"year": 2020, "month": 12},
+                    "img": "images/places/gran.jpeg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
 
                     "locales": {
                         "en": {
-                            "title": "UX Designer",
-                            "description": "Contributed to designing <strong>intuitive</strong> and <strong>user-friendly</strong> web application interfaces, creating engaging and seamless user experiences. Collaborated closely with cross-functional teams and stakeholders to ensure designs aligned with business goals and user needs.",
+                            "title": "Front end developer",
+                            "description": "Developed and maintained marketing websites and landing pages using HTML, CSS, JavaScript, and WordPress PHP.",
                             "list": {
                                 "title": "Key Responsibilities",
                                 "items": [
-                                    "Conducted <strong>user research</strong> to gather insights and inform design decisions.",
-                                    "Created wireframes, prototypes, and high-fidelity designs using <strong>Figma.</strong>",
-                                    "Collaborated with developers to ensure <strong>design feasibility</strong> and implementation.",
-                                    "Conducted <strong>usability testing</strong> to validate designs and gather feedback."
+                                    "Developed and maintained marketing websites and landing pages using HTML, CSS, JavaScript, and WordPress PHP;",
+                                    "Deployed projects to staging and production environments;",
+                                    "Contributed to process improvements and documentation by working closely with the development team leader."
                                 ]
                             },
-                            "province": "Hannover",
-                            "country": "Germany",
-                            "institution": "UX Masters Studio",
-                            "tags": ["Figma", "Wireframing", "Prototyping", "Responsive Design", "User Research"]
+                            "province": "Curitiba",
+                            "country": "Brazil",
+                            "institution": "Gran",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "PHP", "WordPress", "Git", "CPanel", "WHM"]
                         },
 
                         "es": {
@@ -94,29 +93,29 @@
 
                 {
                     "id": 2,
-                    "dateStart": {"year": 2018, "month": 1},
-                    "dateEnd": {"year": 2020, "month": 8},
-                    "img": "images/places/logo-adobe.png",
+                    "dateStart": {"year": 2020, "month": 1},
+                    "dateEnd": {"year": 2022, "month": 8},
+                    "img": "images/places/kenzie.jpeg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
 
                     "locales": {
                         "en": {
-                            "title": "Senior UI/UX Designer",
-                            "description": "Led the design of innovative user interfaces and experiences for <strong>Adobe's flagship products</strong>, focusing on data-driven design principles. Collaborated with product managers and engineers to create intuitive and visually appealing designs that enhance user engagement and satisfaction.",
+                            "title": "Programming instructor",
+                            "description": "Developed educational content, such as written lessons and videos, exercises and hands-on projects focused on front-end technologies and concepts.",
                             "list": {
                                 "title": "Key Responsibilities:",
                                 "items": [
-                                    "Developed high-fidelity prototypes and wireframes using <strong>Figma</strong> and <strong>Adobe XD</strong>.",
-                                    "Conducted <strong>user testing</strong> and research to inform design decisions.",
-                                    "Collaborated with <strong>cross-functional teams</strong> to ensure design consistency and quality.",
-                                    "<strong>Mentored junior designers</strong> in best practices and design methodologies."
+                                    "Developed educational content, such as written lessons and videos, exercises and hands-on projects focused on front-end technologies and concepts;",
+                                    "Managed a team of instructors, developing leadership skills, such as communication, time and task management and delegation;",
+                                    "Helped students build a solid foundation in base development concepts such as programming logic, besides HTML5, CSS, JavaScript, and ReactJS;",
+                                    "Focused on foundational skills and modern front-end tools."
                                 ]
                             },
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Adobe",
-                            "tags": ["Figma", "Adobe XD", "Sketch", "Data-Driven Design"]
+                            "province": "Curitiba",
+                            "country": "Brazil",
+                            "institution": "Kenzie Academy Brasil",
+                            "tags": ["HTML5", "CSS3", "JavaScript", "TypeScript", "ReactJS", "GIT", "Github"]
                         },
 
                         "es": {
@@ -177,29 +176,30 @@
 
                 {
                     "id": 3,
-                    "dateStart": {"year": 2020, "month": 9},
-                    "dateEnd": {"year": 2022, "month": 9},
-                    "img": "images/places/logo-apple.png",
+                    "dateStart": {"year": 2022, "month": 9},
+                    "dateEnd": {"year": 2023, "month": 9},
+                    "img": "images/places/osf.jpeg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
 
                     "locales": {
                         "en": {
-                            "title": "Lead UX Designer",
-                            "description": "Led the design team in creating <strong>innovative user experiences</strong> for Apple's software products, focusing on enhancing usability and accessibility. Worked closely with product managers and engineers to develop design solutions that meet user needs and business objectives.",
+                            "title": "Technical trainer",
+                            "description": "Designed an e-commerce application, a hands-on full-stack project for training and onboarding junior developers, focused on Salesforce.",
                             "list": {
                                 "title": "Key Responsibilities:",
                                 "items": [
-                                    "Designed user interfaces and experiences for <strong>Apple's software products</strong>.",
-                                    "Conducted <strong>user research</strong> and usability testing to inform design decisions.",
-                                    "Collaborated with <strong>cross-functional teams</strong> to ensure design feasibility and implementation.",
-                                    "<strong>Mentored junior designers</strong> in UX design best practices."
+                                    "Designed an e-commerce application, a hands-on full-stack project for training and onboarding junior developers, focused on Salesforce;",
+                                    "Focused on hands-on, full-cycle training using HTML5, SASS, ReactJS and NodeJS;",
+                                    "Developed a programming logic lesson;",
+                                    "Created practical exercises simulating real-world workflows to accelerate learning and integration."
+
                                 ]
                             },
-                            "province": "California",
-                            "country": "US",
-                            "institution": "Apple",
-                            "tags": ["Sketch", "Adobe XD", "InVision", "Design Strategy", "Cross-Functional Collaboration"]
+                            "province": "Porto Alegre",
+                            "country": "Brazil",
+                            "institution": "OSF Digital",
+                            "tags": ["JavaScript", "TypeScript", "ReactJS", "NodeJS", "Salesforce"]
                         },
 
                         "es": {
@@ -260,29 +260,29 @@
 
                 {
                     "id": 4,
-                    "dateStart": {"year": 2022, "month": 10},
-                    "dateEnd": {"year": 2024, "month": 9},
-                    "img": "images/places/logo-coursera.png",
+                    "dateStart": {"year": 2023, "month": 10},
+                    "dateEnd": {"string": "now"},
+                    "img": "images/places/tbb.jpeg",
                     "fallbackFaIcon": null,
                     "fallbackFaIconColor": null,
 
                     "locales": {
                         "en": {
-                            "title": "UX Design Full-Time Professor",
-                            "description": "Taught advanced <strong>UX design principles</strong> and <strong>practices</strong> to undergraduate and graduate students, focusing on real-world applications and industry standards. Developed course materials and assignments that challenged students to think critically and creatively about user experience design.",
+                            "title": "Front end developer",
+                            "description": "Developed and maintained web applications using ReactJS, TypeScript, SASS, Gatsby, and Sanity.",
                             "list": {
                                 "title": "Key Responsibilities:",
                                 "items": [
-                                    "Designed and delivered lectures on <strong>UX design methodologies</strong>.",
-                                    "<strong>Supervised student projects</strong> and provided constructive feedback.",
-                                    "Collaborated with industry professionals to <strong>keep course content relevant.</strong>",
-                                    "<strong>Mentored students</strong> in their career development and design portfolios."
+                                    "Developed and maintained web applications using ReactJS, TypeScript, SASS, Gatsby, and Sanity.",
+                                    "Built new campaign pages and landing pages aligned with marketing strategies.",
+                                    "Redesigned core project pages to improve performance and UX.",
+                                    "Collaborated with cross-functional teams in an agile setup."
                                 ]
                             },
-                            "province": "New York",
-                            "country": "US",
-                            "institution": "Coursera",
-                            "tags": ["Adobe XD", "Sketch", "Axure", "Educational Mentorship"]
+                            "province": "Florianópolis",
+                            "country": "Brazil",
+                            "institution": "The Brooklyn Brothers",
+                            "tags": ["TypeScript", "ReactJS", "Gatsby", "GraphQL", "SASS", "Sanity", "Git"]
                         },
 
                         "es": {
@@ -337,89 +337,6 @@
                             "country": "美国",
                             "institution": "Coursera",
                             "tags": ["Adobe XD", "Sketch", "Axure", "教育指导"]
-                        }
-                    }
-                },
-
-                {
-                    "id": 5,
-                    "dateStart": {"year": 2024, "month": 10},
-                    "dateEnd": {"string": "now"},
-                    "img": null,
-                    "fallbackFaIcon": "fa-brands fa-steam",
-                    "fallbackFaIconColor": "#222222",
-
-                    "locales": {
-                        "en": {
-                            "title": "Project Manager",
-                            "description": "Overseeing the development and implementation of <strong>Agile methodologies</strong> within the organization, ensuring projects are delivered on time and within scope. Collaborating with cross-functional teams to manage risks, resources, and stakeholder expectations effectively.",
-                            "list": {
-                                "title": "Key Responsibilities:",
-                                "items": [
-                                    "Facilitated <strong>Agile ceremonies</strong> such as sprint planning, daily stand-ups, and retrospectives.",
-                                    "Managed project timelines, budgets, and resources to ensure successful delivery.",
-                                    "Collaborated with product owners to prioritize and <strong>refine the product backlog</strong>.",
-                                    "<strong>Identified and mitigated</strong> project risks to ensure smooth execution."
-                                ]
-                            },
-                            "province": "San Francisco",
-                            "country": "US",
-                            "institution": "Steam Valve",
-                            "tags": ["Agile", "Scrum", "Leadership", "Risk Management"]
-                        },
-
-                        "es": {
-                            "title": "Gerente de Proyectos",
-                            "description": "Supervisando el desarrollo e implementación de <strong>metodologías ágiles</strong> dentro de la organización, asegurando que los proyectos se entreguen a tiempo y dentro del alcance. Colaborando con equipos multifuncionales para gestionar riesgos, recursos y expectativas de las partes interesadas de manera efectiva.",
-                            "list": {
-                                "title": "Responsabilidades Clave:",
-                                "items": [
-                                    "Facilité ceremonias <strong>ágiles</strong> como planificación de sprints, reuniones diarias y retrospectivas.",
-                                    "Gestioné cronogramas de proyectos, presupuestos y recursos para garantizar una entrega exitosa.",
-                                    "Colaboré con propietarios de productos para priorizar y <strong>refinar el backlog del producto</strong>.",
-                                    "<strong>Identifiqué y mitigé</strong> los riesgos del proyecto para asegurar una ejecución fluida."
-                                ]
-                            },
-                            "province": "San Francisco",
-                            "country": "EE. UU.",
-                            "institution": "Steam Valve",
-                            "tags": ["Agile", "Scrum", "Liderazgo", "Gestión de Riesgos"]
-                        },
-
-                        "fr": {
-                            "title": "Chef de Projet",
-                            "description": "Supervision du développement et de la mise en œuvre des <strong>méthodologies Agile</strong> au sein de l'organisation, garantissant que les projets sont livrés à temps et dans le respect du périmètre. Collaboration avec des équipes interfonctionnelles pour gérer efficacement les risques, les ressources et les attentes des parties prenantes.",
-                            "list": {
-                                "title": "Responsabilités Clés:",
-                                "items": [
-                                    "Animation des cérémonies <strong>Agile</strong> telles que la planification des sprints, les réunions quotidiennes et les rétrospectives.",
-                                    "Gestion des délais, budgets et ressources des projets pour garantir une livraison réussie.",
-                                    "Collaboration avec les propriétaires de produits pour prioriser et <strong>affiner le backlog produit</strong>.",
-                                    "<strong>Identification et atténuation</strong> des risques de projet pour assurer une exécution fluide."
-                                ]
-                            },
-                            "province": "San Francisco",
-                            "country": "États-Unis",
-                            "institution": "Steam Valve",
-                            "tags": ["Agile", "Scrum", "Leadership", "Gestion des Risques"]
-                        },
-
-                        "zh": {
-                            "title": "项目经理",
-                            "description": "监督组织内敏捷方法论的开发和实施，确保项目按时并在范围内交付。与跨职能团队合作，有效管理风险、资源和利益相关者期望。",
-                            "list": {
-                                "title": "主要职责:",
-                                "items": [
-                                    "主持敏捷仪式，如冲刺计划、每日站会和回顾会议。",
-                                    "管理项目时间表、预算和资源，确保成功交付。",
-                                    "与产品负责人合作，优先考虑并完善产品待办事项列表。",
-                                    "识别并缓解项目风险，以确保顺利执行。"
-                                ]
-                            },
-                            "province": "旧金山",
-                            "country": "美国",
-                            "institution": "Steam Valve",
-                            "tags": ["敏捷", "Scrum", "领导力", "风险管理"]
                         }
                     }
                 }

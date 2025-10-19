@@ -1,5 +1,5 @@
 <template>
-    <Article class="article-contact-form"
+    <!-- <Article class="article-contact-form"
              :model="model">
         <form id="contact-form"
               ref="form"
@@ -14,7 +14,7 @@
                                         :info="localize(model.locales, 'contact_thank_you_reply').replaceAll('{email}', email || '')"
                                         @reset="_onFormReset"/>
         </form>
-    </Article>
+    </Article> -->
 </template>
 
 <script setup>

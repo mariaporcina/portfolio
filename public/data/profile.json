@@ -1,10 +1,15 @@
 {
-    "name": "Roy Sheppard",
-    "profilePictureUrl": "images/pictures/avatar.jpg",
+    "name": "Maria Porcina",
+    "profilePictureUrl": "images/pictures/avatar.png",
 
     "locales": {
         "en": {
             "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Front-End Developer"
+        },
+        
+        "pt": {
+            "credits": "Designed por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
             "role": "UX Designer"
         },
 
@@ -32,8 +37,8 @@
             "href": null,
             "locales": {
                 "en": {
-                    "value": "123 Main Street, Cupertino, CA 01234",
-                    "valueShort": "Cupertino – CA"
+                    "value": null,
+                    "valueShort": "Curitiba – BR"
                 },
                 "es": {
                     "valueShort": "California – EE.UU."
@@ -49,50 +54,35 @@
 
         {
             "id": "email",
-            "value": "roy.sheppard@genius.com",
-            "valueShort": "roy.sheppard@genius.com",
+            "value": "maria.porcina.mp@gmail.com",
+            "valueShort": "maria.porcina.mp@gmail.com",
             "faIcon": "fa-regular fa-envelope",
-            "href": "mailto:roy.sheppard@genius.com"
+            "href": "mailto:maria.porcina.mp@gmail.com"
         },
 
-        {
-            "id": "facebook",
-            "value": "Roy Sheppard",
-            "valueShort": "Roy S.",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://facebook.com"
-        },
 
         {
             "id": "github",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
+            "value": "@mariaporcina",
+            "valueShort": "@mariaporcina",
             "faIcon": "fa-brands fa-github",
-            "href": "https://github.com"
-        },
-
-        {
-            "id": "instagram",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
-            "faIcon": "fa-brands fa-instagram",
-            "href": "https://instagram.com"
+            "href": "https://github.com/mariaporcina"
         },
 
         {
             "id": "linkedin",
-            "value": "@roy.sheppard.official",
-            "valueShort": "@roy.sheppard.official",
+            "value": "@mariaporcina",
+            "valueShort": "@mariaporcina",
             "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com"
+            "href": "https://linkedin.com/in/mariaporcina"
         },
 
         {
             "id": "phone",
-            "value": "+1 (123) 456-7890",
-            "valueShort": "(123) 456-7890",
+            "value": "+55 (42) 9 9145-6292",
+            "valueShort": "(42) 9 9145-6292",
             "faIcon": "fa-brands fa-whatsapp",
-            "href": "tel:1234567890"
+            "href": "https://wa.me/5542991456292?text=Hi%2C%20Maria!%20Nice%20portfolio%2C%20let's%20chat."
         }
     ]
 }

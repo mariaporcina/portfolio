@@ -28,9 +28,9 @@
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
-                "contact_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "contact_js_service_id": "service_4h8g7vb",
-                "contact_js_template_id": "template_react"
+                "contact_js_public_key": "keg4ieb8meqKvnqKx",
+                "contact_js_service_id": "service_8biuj7e",
+                "contact_js_template_id": "template_omshrnk"
             },
             "items": null
         },
@@ -40,7 +40,11 @@
             "component": "ArticleContactOptions",
             "locales": {
                 "en": {
-                    "title": "Or...",
+                    "title": null,
+                    "description": "If you prefer, you can reach out to me through the following options:"
+                },
+                "pt": {
+                    "title": "Ou...",
                     "description": "If you prefer, you can reach out to me through the following options:"
                 },
                 "es": {
@@ -59,7 +63,7 @@
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
-                "contact_ids": ["address", "phone", "email", "linkedin", "facebook", "github"]
+                "contact_ids": ["phone", "email", "linkedin", "github"]
             },
             "items": null
         }

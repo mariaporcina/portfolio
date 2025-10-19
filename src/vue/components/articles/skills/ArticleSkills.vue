@@ -3,11 +3,11 @@
              :model="model">
         <div class="article-content-wrapper">
             <!-- Chart -->
-            <div v-if="chartType" class="chart-wrapper">
+            <!-- <div v-if="chartType" class="chart-wrapper"> -->
                 <!-- Chart Type: Pie -->
-                <ArticleSkillsPieChart v-if="chartType === 'pie'"
+                <!-- <ArticleSkillsPieChart v-if="chartType === 'pie'"
                                        :model="props.model"/>
-            </div>
+            </div> -->
 
             <!-- Items -->
             <div class="items-row-wrapper" :class="chartType ? `items-row-wrapper-with-chart` : ``">

@@ -30,6 +30,36 @@
             "view_on_windows_store": "Windows Store"
         },
 
+        "pt": {
+            "about": "Sobre",
+            "address": "Endereço",
+            "adjusting_viewport": "Ajustando a Tela...",
+            "changing_language": "Atualizando linguagem...",
+            "email": "E-mail",
+            "error_fill_all_fields": "Preencha todos os campos.",
+            "error_invalid_email": "Insira um endereço de e-email válido.",
+            "error_sending_message": "Ocorreu um erro ao enviar a mensagem.",
+            "experience_year_count_less_than_one": "<b>≈ 1</b> ano de experiência",
+            "experience_year_count_plural": "<b>{x}</b> anos de experiência",
+            "experience_year_count_singular": "<b>{x}</b> ano de experiência",
+            "message": "Mensagem",
+            "name": "Nome",
+            "now": "Presente",
+            "phone": "Celular",
+            "send_message": "Enviar Mensagem",
+            "send_another_message": "Enviar outra mensagem",
+            "sending_message": "Enviando...",
+            "subject": "Assunto",
+            "tags": "Tags",
+            "where_to_find": "Onde Encontrar",
+            "where_to_find_description": "{project} está disponível nas seguintes plataformas e serviços:",
+            "view_certification": "Vew Certificação",
+            "view_more_info": "Ver mais",
+            "view_on_app_store": "App Store",
+            "view_on_google_play": "Google Play",
+            "view_on_windows_store": "Windows Store"
+        },
+
         "es": {
             "about": "Acerca de",
             "address": "Dirección",

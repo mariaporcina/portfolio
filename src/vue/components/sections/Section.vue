@@ -55,20 +55,16 @@ const visible = computed(() => {
 
 section.resume-section {
     display: flex;
-    min-height: 100vh;
 
     @include media-breakpoint-down($navigation-sidebar-breakpoint) {
         min-height: calc(100vh - $nav-tab-controller-height - 220px);
     }
 
-    @media (min-height: 900px) {
-        min-height: 900px;
-    }
+    // @media (min-height: 900px) {
+    //     min-height: 900px;
+    // }
 
     &-svh {
-        min-height: 100vh;
-        min-height: 100svh;
-
         @include media-breakpoint-down($navigation-sidebar-breakpoint) {
             min-height: calc(100vh - $nav-tab-controller-height - 220px);
             min-height: calc(100vh - $nav-tab-controller-height + 2px);
@@ -76,15 +72,15 @@ section.resume-section {
     }
 }
 
-section.resume-section-cover {
-    @media (min-height: 900px) {
-        min-height: 100vh;
-    }
+// section.resume-section-cover {
+//     @media (min-height: 900px) {
+//         min-height: 100vh;
+//     }
 
-    @include media-breakpoint-down($navigation-sidebar-breakpoint) {
-        min-height: 50vh;
-    }
-}
+//     @include media-breakpoint-down($navigation-sidebar-breakpoint) {
+//         min-height: 50vh;
+//     }
+// }
 
 section.resume-section-with-divider {
     border-bottom: 1px solid $nav-background;
