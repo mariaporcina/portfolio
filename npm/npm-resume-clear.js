@@ -55,7 +55,7 @@ jsonUtils.update(jProfilePath, {
     locales: {
         en: {
             name: "John Doe",
-            credits: "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            credits: "Template Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
             role: "Role"
         }
     },

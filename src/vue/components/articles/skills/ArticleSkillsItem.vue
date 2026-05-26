@@ -22,22 +22,10 @@
                           class="ms-1 text-3 text-light-7"
                           v-html="levelDisplay"/>
                 </span>
-
-                <!-- Percentage -->
-                <span v-if="percentageDisplay && progressBarAllowed"
-                      class="skills-item-percentage-display text-1"
-                      v-html="percentageDisplay"/>
-            </div>
-
-            <!-- Progress Bar -->
-            <div v-if="item.hasPercentage && progressBarAllowed"
-                 class="skills-item-progress-display mt-1">
-                <div class="skills-item-progress-display-fill"
-                     :style="`width:${item.percentage}%; background-color: ${item.fallbackFaIconColor}`"/>
             </div>
 
             <!-- Experience Time -->
-            <div v-if="experienceTimeDisplay && progressBarAllowed"
+            <div v-if="experienceTimeDisplay"
                  class="skills-item-description">
                 <p class="text-3 m-0">
                     <span v-html="experienceTimeDisplay"/>
@@ -47,7 +35,7 @@
             <!-- Description -->
             <div class="skills-item-description">
                 <p class="text-3 m-0"
-                   :class="experienceTimeDisplay || !progressBarAllowed ? `text-light-7` : ``"
+                   :class="experienceTimeDisplay ? `text-light-7` : ``"
                    v-html="localize(item.locales, 'description', true)"/>
             </div>
 
@@ -75,8 +63,7 @@ const props = defineProps({
     },
     colClass: String,
     transparentIcon: Boolean,
-    smallIcon: Boolean,
-    progressBarAllowed: Boolean
+    smallIcon: Boolean
 })
 
 /** @type {Function} */
@@ -84,12 +71,6 @@ const localize = inject("localize")
 
 /** @type {Function} */
 const localizeFromStrings = inject("localizeFromStrings")
-
-const percentageDisplay = computed(() => {
-    if(!props.item.percentage)
-        return
-    return props.item.percentage + "%"
-})
 
 const experienceTimeDisplay = computed(() => {
     const dateStart = props.item.dateStart
@@ -109,15 +90,9 @@ const experienceTimeDisplay = computed(() => {
 
 const levelDisplay = computed(() => {
     const level = localize(props.item.locales, 'level', true)
-    const percentage = percentageDisplay.value
-
-    if(props.progressBarAllowed) {
-        if(level)
-            return `- ${level}`
-        return null
-    }
-
-    return `- ${percentage} ${level ? '(' + level + ')' : ''}`
+    if(level)
+        return `- ${level}`
+    return null
 })
 
 const links = computed(() => {
@@ -200,24 +175,6 @@ div.skills-item-header {
 span.skills-item-header-title {
     @include media-breakpoint-down(sm) {
         font-size: 0.875rem;
-    }
-}
-
-div.skills-item-progress-display {
-    @include generate-dynamic-styles-with-hash((
-        xxxl:   (margin-top: 4px, height: 9px),
-        md:     (margin-top: 3px),
-        sm:     (margin-top: 2px),
-    ));
-
-    width: 100%;
-    background-color: rgba($dark, 0.05);
-    border: 1px solid rgba(black, 0.1);
-    padding: 1px;
-
-    div.skills-item-progress-display-fill {
-        background-color: $primary;
-        height: 100%;
     }
 }
 

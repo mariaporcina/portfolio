@@ -50,7 +50,7 @@ const props = defineProps({
 /** @type {Function} */
 const localize = inject("localize")
 
-const itemProps = ["img", "fallbackFaIcon", "fallbackFaIconColor", "dateStart", "dateEnd", "percentage", "links"]
+const itemProps = ["img", "fallbackFaIcon", "fallbackFaIconColor", "dateStart", "dateEnd", "links"]
 const localesProps = ["title", "description", "institution", "location", "country", "tags"]
 
 const _toDisplayFormat = (value) => {

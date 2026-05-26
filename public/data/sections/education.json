@@ -19,16 +19,16 @@
 
                     "locales": {
                         "en": {
-                            "title": "Technologist in Internet Systems",
-                            "description": "Sistemas para internet",
-                            "province": "",
+                            "title": "Technologist Diploma in Internet Systems",
+                            "description": "Completed while building my professional career.",
+                            "province": "Guarapuava",
                             "country": "Brazil",
-                            "institution": "Federal University of Technology of Paraná",
+                            "institution": "Federal University of Technology of Paraná (UTFPR)",
                             "tags": []
                         },
 
                         "pt": {
-                            "title": "Sistemas para Internet",
+                            "title": "Tecnólogo em Sistemas para Internet",
                             "description": "Sistemas para internet",
                             "province": "",
                             "country": "Brasil",

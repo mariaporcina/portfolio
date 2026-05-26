@@ -4,29 +4,8 @@
 
     "locales": {
         "en": {
-            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Front-End Developer"
-        },
-        
-        "pt": {
-            "credits": "Designed por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "UX Designer"
-        },
-
-        "es": {
-            "credits": "Hecho por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer de UX"
-        },
-
-        "fr": {
-            "credits": "Conçu par <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer UX"
-        },
-
-        "zh": {
-            "name": "罗伊谢帕德",
-            "credits": "设计：<strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "用户体验设计师"
+            "credits": "Template Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Senior Front-End Engineer | React | TypeScript | Front-End Architecture"
         }
     },
 
@@ -39,15 +18,6 @@
                 "en": {
                     "value": null,
                     "valueShort": "Curitiba – BR"
-                },
-                "es": {
-                    "valueShort": "California – EE.UU."
-                },
-                "fr": {
-                    "valueShort": "Californie – États-Unis"
-                },
-                "zh": {
-                    "valueShort": "美国加州"
                 }
             }
         },

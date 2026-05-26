@@ -106,10 +106,7 @@ $article-thread-scale-multipliers: (
 $article-thread-line-color: $article-timeline-line-color;
 $article-thread-circle-base-size: 32px;
 
-/** Chart JS Customization **/
 :root {
-    --chart-js-border-color: #{$default-section-background};
-    --chart-js-hover-border-color: #{$light};
     --nav-background-color: #{$nav-background};
 }
 

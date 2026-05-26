@@ -4,18 +4,25 @@
             "id": 1,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": null},
-                "es": {"title": null},
-                "fr": {"title": null},
-                "zh": {"title": null}
+                "en": {
+                    "title": null
+                },
+                "es": {
+                    "title": null
+                },
+                "fr": {
+                    "title": null
+                },
+                "zh": {
+                    "title": null
+                }
             },
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
                 "max_items_per_line": 2,
                 "transparent_item_icon_background": false,
-                "small_icons": true,
-                "chart": "pie"
+                "small_icons": true
             },
             "items": [
                 {
@@ -24,7 +31,6 @@
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-users",
                     "fallbackFaIconColor": "#FF6384",
-                    "percentage": 15,
                     "locales": {
                         "en": {
                             "title": "Family Time",
@@ -48,14 +54,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-tasks",
                     "fallbackFaIconColor": "#36A2EB",
-                    "percentage": 29,
                     "locales": {
                         "en": {
                             "title": "My Projects",
@@ -79,14 +83,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-couch",
                     "fallbackFaIconColor": "#FFCD56",
-                    "percentage": 11,
                     "locales": {
                         "en": {
                             "title": "Relaxing",
@@ -110,14 +112,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-book",
                     "fallbackFaIconColor": "#C5B0FF",
-                    "percentage": 9,
                     "locales": {
                         "en": {
                             "title": "Studying",
@@ -141,14 +141,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 5,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-dumbbell",
                     "fallbackFaIconColor": "#8EE3C5",
-                    "percentage": 17,
                     "locales": {
                         "en": {
                             "title": "Exercising",
@@ -172,14 +170,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 6,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-utensils",
                     "fallbackFaIconColor": "#EEB79A",
-                    "percentage": 19,
                     "locales": {
                         "en": {
                             "title": "Cooking",
@@ -205,7 +201,6 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleSkills",
@@ -228,8 +223,7 @@
                 "order_items_sort": "asc",
                 "max_items_per_line": 1,
                 "transparent_item_icon_background": false,
-                "small_icons": true,
-                "chart": null
+                "small_icons": true
             },
             "items": [
                 {
@@ -238,7 +232,6 @@
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-paint-brush",
                     "fallbackFaIconColor": null,
-                    "percentage": null,
                     "locales": {
                         "en": {
                             "title": "User Experience Design",
@@ -262,14 +255,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 2,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-keyboard",
                     "fallbackFaIconColor": null,
-                    "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Programming",
@@ -293,14 +284,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 3,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-music",
                     "fallbackFaIconColor": null,
-                    "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Music",
@@ -324,14 +313,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 4,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-users",
                     "fallbackFaIconColor": null,
-                    "percentage": null,
                     "locales": {
                         "en": {
                             "title": "User Research",
@@ -355,14 +342,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 5,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-desktop",
                     "fallbackFaIconColor": null,
-                    "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Front-End Development",
@@ -386,14 +371,12 @@
                         }
                     }
                 },
-
                 {
                     "id": 6,
                     "dateStart": null,
                     "img": null,
                     "fallbackFaIcon": "fa-solid fa-palette",
                     "fallbackFaIconColor": null,
-                    "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Visual Arts",

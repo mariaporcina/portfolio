@@ -115,6 +115,7 @@ h6.nav-profile-card-role {
     color: $nav-highlight;
     opacity: 0.9;
     margin-bottom: 0;
+    text-align: center;
 
     @media (max-height: 660px) {
         font-size: 0.95rem;

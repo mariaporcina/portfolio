@@ -9,7 +9,6 @@ export default class ArticleItem {
         this._fallbackFaIconColor = data['fallbackFaIconColor']
         this._dateStart = data['dateStart']
         this._dateEnd = data['dateEnd']
-        this._percentage = data['percentage']
         this._locales = new Locales(data.locales || {})
         this._links = data.links || []
         this._category = data['category']
@@ -64,16 +63,6 @@ export default class ArticleItem {
     /** @return {Locales} */
     get locales() {
         return this._locales
-    }
-
-    /** @return {Number} */
-    get percentage() {
-        return this._percentage
-    }
-
-    /** @return {boolean} */
-    get hasPercentage() {
-        return this._percentage !== null && this._percentage !== undefined
     }
 
     /** @return {Array} */
